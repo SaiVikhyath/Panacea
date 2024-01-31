@@ -26,7 +26,7 @@ The application generates a personalized Lifestyle Score for each user, consider
 
 Panacea employs advanced personalized emergency detection using the DBSCAN algorithm. In critical situations, the application automatically alerts emergency services, ensuring a rapid response to potential health emergencies.
 
-### 4. Events and Restaurants Recommendations
+### 4. Events and Restaurant Recommendations
 
 Panacea leverages Google's Maps and Places APIs to offer tailored recommendations for events and dining. Based on the user's location, health profile, and preferences, the application suggests activities and restaurants that align with their health objectives.
 
@@ -44,7 +44,7 @@ Panacea's implementation is grounded in state-of-the-art technologies:
 
 1. **Wearable Device Integration:** Wearables are integrated to collect real-time health data, including heart rate, respiratory rate, SpO2, and sleep metrics (We are using Health Connect for getting all the required data). This information is then sent to the Outlier Detection Module and stored in the SQLite database.
 
-2. **Outlier Detection for Emergency Services:** The DBSCAN algorithm is employed for Outlier Detection, utilizing historical health data to fine-tune the algorithm’s hyperparameters. This enables personalized insights which are critical for detecting emergencies. In the event of an emergency, the application triggers an SMS using the SmsManager Class and initiates a call to paramedics using an Intent.
+2. **Outlier Detection for Emergency Services:** The DBSCAN algorithm is employed for Outlier Detection, utilizing historical health data to fine-tune the algorithm’s hyperparameters. This enables personalized insights which are critical for detecting emergencies. In the event of an emergency, the application triggers an SMS using the SmsManager Class and initiates a call to paramedics using an Intent.
 
 3. **Lifestyle Score Calculation:** A Fuzzy Logic Controller is used to compute the Lifestyle Score. It fetches historical health data from the SQLite database, applying membership functions to each health metric to calculate a personalized score between 0-100. This score is then stored in the SQLite database for ongoing tracking.
 
@@ -57,10 +57,10 @@ Panacea represents a groundbreaking approach to personal health monitoring and w
 
 
 ## Results
-![Home_Screen](https://github.com/Vikhy18/Panacea/blob/main/HomeScreen.jpeg)
-![Current_Location](https://github.com/Vikhy18/Panacea/blob/main/CurrentLocation.jpeg)
-![Restaurant_Suggestion](https://github.com/Vikhy18/Panacea/blob/main/RestaurantRetrieval.jpeg)
-![Events_Suggestion](https://github.com/Vikhy18/Panacea/blob/main/EventRetrieval.jpeg)
+![Home_Screen](https://github.com/SaiVikhyath/Panacea/blob/main/HomeScreen.jpeg)
+![Current_Location](https://github.com/SaiVikhyath/Panacea/blob/main/CurrentLocation.jpeg)
+![Restaurant_Suggestion](https://github.com/SaiVikhyath/Panacea/blob/main/RestaurantRetrieval.jpeg)
+![Events_Suggestion](https://github.com/SaiVikhyath/Panacea/blob/main/EventRetrieval.jpeg)
 
 
 ## References
