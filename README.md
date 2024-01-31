@@ -36,7 +36,7 @@ Panacea's architecture involves the integration of various technologies, includi
 
 Simultaneously, the system utilizes the user's current location data obtained from the Google Maps API. This information feeds into a recommendation engine, leveraging the Google Places API. The recommendation engine cross-references the user's health and lifestyle data, suggesting nearby activities and restaurants aligned with their health objectives. These recommendations are conveniently provided to the user through the smartphone application, which serves as a platform for both health monitoring and lifestyle management. This integration ensures that the user's health data directly influences their daily activity choices.
 
-![Architecture](https://github.com/Vikhy18/Panacea/blob/main/Architecture.png)
+![Architecture](https://github.com/SaiVikhyath/Panacea/blob/main/Architecture.png)
 
 ## Implementation
 
