@@ -110,7 +110,7 @@ public class EventsSuggestion extends FragmentActivity implements OnMapReadyCall
                     stringBuilder.append("location=" + lat + "," + lng);
                     stringBuilder.append("&radius=10000");
                     stringBuilder.append("&types=night_club|bowling_alley");
-                    stringBuilder.append("&key=AIzaSyC_wzATn9BoVznZ3A_QHhBRUznjLnQ2f-o");
+                    stringBuilder.append("&key=");
 
                     String url = stringBuilder.toString();
                     Object dataFetch[] = new Object[2];
