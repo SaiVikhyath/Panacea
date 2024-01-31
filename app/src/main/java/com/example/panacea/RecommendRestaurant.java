@@ -22,7 +22,7 @@ public class RecommendRestaurant {
     private static final String PLACES_API_BASE = "https://maps.googleapis.com/maps/api/place/nearbysearch";
     private static final String TYPE_RESTAURANT = "restaurant";
     private static final String OUT_JSON = "/json";
-    private static final String API_KEY = "AIzaSyC_wzATn9BoVznZ3A_QHhBRUznjLnQ2f-o";
+    private static final String API_KEY = "";
 
     public boolean canThisRestaurantBeRecommended(String name, String lat, String lng) {
         LatLng restaurantLocation = new LatLng(Double.parseDouble(lat), Double.parseDouble(lng));
